@@ -1,0 +1,14 @@
+/* filepath: /Users/sarthakshrestha/Developer/EMS/ems/src/app/pages/dashboard/dashboard.component.scss */
+
+/* Style for completed tasks */
+.completed-task {
+  text-decoration: line-through; /* Cross out the text */
+  color: lightgreen; /* Light green color for completed tasks */
+}
+
+/* Light green background for the ion-list */
+.light-green-background {
+  background-color: #d4edda; /* Light green background */
+  border-radius: 8px; /* Add rounded corners */
+  padding: 8px; /* Add padding for better spacing */
+}

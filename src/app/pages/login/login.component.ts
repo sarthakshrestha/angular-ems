@@ -16,10 +16,12 @@ import {
   IonInput,
   IonButton,
   IonText,
+  IonLabel,
   IonGrid,
 } from '@ionic/angular/standalone';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -38,6 +40,7 @@ import { FormsModule } from '@angular/forms';
     IonCardTitle,
     IonCardSubtitle,
     IonCardContent,
+    RouterModule,
     IonItem,
     IonRow,
     IonCol,

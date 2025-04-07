@@ -5,7 +5,9 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-grid class="h-100">
+  <ion-grid
+    class="h-100 items-center flex-1 justify-center justify-content-center flex-col"
+  >
     <ion-row class="ion-justify-content-center ion-align-items-center h-100">
       <ion-col size="12" size-md="6" size-lg="4">
         <ion-card>
@@ -39,6 +41,7 @@
             <div class="ion-text-center hover:cursor-pointer">
               <ion-button
                 class="ion-margin-top hover:cursor-pointer text-white font-semibold w-fit items-center justify-center"
+                routerLink="/"
               >
                 Login
               </ion-button>
@@ -48,7 +51,12 @@
 
         <ion-text color="medium">
           <p class="ion-text-center">
-            Don't have an account? <a href="#">Sign up</a>
+            Don't have an account?
+            <a
+              href="#"
+              class="hover:text-blue-400 transition-colors duration-75"
+              >Sign up</a
+            >
           </p>
         </ion-text>
       </ion-col>
