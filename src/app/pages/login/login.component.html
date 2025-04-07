@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Login to SEMS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid class="h-100">
+    <ion-row class="ion-justify-content-center ion-align-items-center h-100">
+      <ion-col size="12" size-md="6" size-lg="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title class="ion-text-center font-bold"
+              >Welcome Back</ion-card-title
+            >
+            <ion-card-subtitle class="ion-text-center">
+              Please log in to continue
+            </ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            <ion-list>
+              <ion-item>
+                <ion-input
+                  label="Email"
+                  type="email"
+                  placeholder="Enter your email"
+                ></ion-input>
+              </ion-item>
+
+              <ion-item>
+                <ion-input
+                  label="Password"
+                  type="password"
+                  placeholder="Enter your password"
+                ></ion-input>
+              </ion-item>
+            </ion-list>
+            <div class="ion-text-center hover:cursor-pointer">
+              <ion-button
+                class="ion-margin-top hover:cursor-pointer text-white font-semibold w-fit items-center justify-center"
+              >
+                Login
+              </ion-button>
+            </div>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-text color="medium">
+          <p class="ion-text-center">
+            Don't have an account? <a href="#">Sign up</a>
+          </p>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
